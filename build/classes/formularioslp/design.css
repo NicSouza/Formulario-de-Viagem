@@ -1,0 +1,42 @@
+/* 
+    Created on : 8 de mai. de 2023, 10:51:08
+    Author     : nicol
+*/
+
+.nav{
+    -fx-background-color: #ddd
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right, #2A2F4F,#917FB3);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+    -fx-font-size:17px;
+    -fx-text-fill:#ffffff;
+    -fx-alignment:CENTER-LEFT;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius:8px;
+}
+
+.add-btn{
+    -fx-background-color:linear-gradient(to bottom, #2A2F4F,#917FB3); 
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+.add-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #2A2F4F,#917FB3);
+}
